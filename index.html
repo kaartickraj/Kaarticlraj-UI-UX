@@ -1,61 +1,139 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kaartickraj</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cake zone</title>
+  <link rel="stylesheet" href="boot.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </head>
+
 <body>
-  <div class="top-container">
-      <img class="top-cloud" src="cloud.png" alt="cloud"> 
-      <h1>Hi I am Kaartickraj</h1>
-      <h2>A UI-UX Designer</h2>
-      <img class="bottom-cloud" src="cloud.png" alt="cloud">
-      <img src="mountain.png" alt="mountain">
-  </div> 
-  <div class="middle-container">
-    <div class="profile">
-      <img class="me" src="cat.jfif" alt="cat">
-      <h2>Hello.</h2>
-      <p>I am living in chennai , I am persuing my Bachelor of Engineerng at TJSEC</p>
-    </div>
-    <hr>
-    <div class="skills">
-      <h2>My Skills.</h2>
-      <div class="skill-row">
-        <img class="h" src="az.png" alt="lang">
-        <h3>Frontend development</h3>
-        <p> Everything you see on a website, like buttons, links, animations, and more, were created by a front end web developer. It is the front end developer's job to take the vision and design concept from the client and implement it through code</p>
+
+  <section id="title">
+
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href=""> 🍰 Cake zone</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Contact</a>
+                </li>
+            </ul>
+        </div>
       </div>
-      <div class="skill-row">
-        <img class="c" src="R.jfif" alt="">
-        <h3>Backend development</h3>
-        <p>Back end Development refers to the server-side development; Back end developer skills include Development Languages, Database and cache, Server, API, etc.The backend web developer should understand the goals of the website and come up with effective solutions</p>
+    </nav>  
+    <div>
+      <div style="background-image:url('R.jfif');" class="container-fluid  p-3 my-1  text-white">
+        <h1 id="cake">🎂 Celebrate your special moments with cake zone cakes 🎂</h1>
+    </div> 
+  <h1 style="color:palevioletred;text-align:center;"> 
+      Our Cakes
+  </h1> 
+
+  <div class="container">
+      <div class="card-group">
+
+          <!--bootstrap card with 3 horizontal images-->
+          <div class="row">
+              <div class="card col-md-4">
+                  <img class="card-img-top" src="choclate.jpg">
+
+                  <div class="card-body">
+                      <h3 class="card-title">Choco Truffle</h3>
+                      <p class="card-text">RS:800 per kg</p>
+                  </div>
+              </div>
+
+              <div class="card col-md-4">
+                  <img class="card-img-top" src="black.jpg">
+                    
+                  <div class="card-body">
+                    <h3 class="card-title">Choco Truffle</h3>
+                    <p class="card-text">RS:800 per kg</p>
+                </div>
+            </div>
+                
+              <div class="card col-md-4">
+                  <img class="card-img-top" src="mango.jpg">
+                    
+                  <div class="card-body">
+                    <h3 class="card-title">Mango Cake</h3>
+                    <p class="card-text">RS:650 per kg</p>
+                </div>
+            </div>
+              <div class="row">
+                <div class="card col-md-4">
+                    <img class="card-img-top" src="red.jpg">
+  
+                    <div class="card-body">
+                        <h3 class="card-title">Red Velvet</h3>
+                        <p class="card-text">RS:900 per kg</p>
+                    </div>
+                </div>
+  
+                <div class="card col-md-4">
+                    <img class="card-img-top" src="vanila.jpg">
+                      
+                    <div class="card-body">
+                        <h3 class="card-title">Vanila Cake</h3>
+                        <p class="card-text">RS:600 per kg</p>
+                    </div>
+                </div>
+                  
+                <div class="card col-md-4">
+                    <img class="card-img-top" src="white.jpg">
+                      
+                    <div class="card-body">
+                        <h3 class="card-title">White Forest Cake</h3>
+                        <p class="card-text">RS:700 per kg</p>
+                    </div>
+                </div>
+            </div>
+          </div>
       </div>
-    </div>
-    <hr>
-    <div class="contact-me">
-      <h2>I can help.</h2>
-      <h3>I'm currently available for freelance work.</h3>
-      <p>If you have a project that you want to get started, think you need my help with something or just fancy saying hey, then get in touch.</p>
-      <a class="btn" href="mailto:kaartickraj@gmail.com">CONTACT ME</a>
-      <br>
-      <br>
-    </div>
   </div>
-  
-  
+
+
+  </section>
+
+
+
+
+
+
+
+ 
+
+  <!-- Footer -->
+
+</body>
+<footer id="footer">
+
   <div class="bottom-container">
     <br>
-    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-    <a class="footer-link" href="https://twitter.com/">Twitter</a>
-    <p>© Kaartickraj Thanigachalam.</p>
+    <a class="footer-link" href="https://www.facebook.com/">Facebook</a>
+    <a class="footer-link" href="https://instagram.com/">Instagram</a>
+    <br>
+    <p>© 2020-2022 cakezone.in <br>  all rights reserved</p>
     <br>
   </div>
-   
-</body>
+
+</footer>
+
 </html>
